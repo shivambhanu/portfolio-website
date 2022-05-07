@@ -5,7 +5,7 @@ const allSections = document.querySelector('.main-content');
 
 
 function pageTransition(){
-    //Button click active class
+    //Button click active class  
     for(let i = 0; i < sectBtn.length; i++){
         sectBtn[i].addEventListener('click', function() {
             let currentBtn = document.querySelectorAll('.active-btn');
